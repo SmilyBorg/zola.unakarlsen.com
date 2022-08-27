@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+{% set image = resize_image(path="/static/images/una.jpg", width=300, height=300, op="fit") %}
 {% block content %}
 <h1 class="title">
   This is my blog made with Zola.
@@ -7,7 +8,7 @@
 
 <div id="una-hcard" class="h-card">
 	<div class="img-container">
-		<img class="u-photo" src="https://zola.unakarlsen.com/images/una.jpg" alt="Una Karlsen's profile image" />
+		<img class="u-photo" src="{{ image.url }}" alt="Una Karlsen's profile image" />
 	</div>
 	<div class="text-container">
     <p>Hi, I'm <a class="p-name u-uid u-url" rel="me" href="https://unakarlsen.com"><span class="p-given-name">Una</span> <span class="p-family-name">Karlsen</span></a> (<span class="p-pronouns"><span class="p-x-pronoun-nominative p-pronoun-nominative p-pronoun">she</span>/<span class="p-pronoun-oblique p-x-pronoun-oblique">she</span>/<span class="p-pronoun-possessive p-x-pronoun-possessive">hers</span></span>), and I'm currently a <span class="p-job-title">Consultant</span> at <a class="p-org h-card" href="https://StrangeMinds.org/">StrangeMinds</a>.</p>
