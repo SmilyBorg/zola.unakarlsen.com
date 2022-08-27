@@ -81,7 +81,7 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Status", name: "status", widget: "list", allow_add: false, default: ["planning"]}
+      - {label: "Status", name: "status", widget: "select", default: "planning", options: ["planning","in progress","complete"]}
       - {label: "Body", name: "body", widget: "markdown"}
 #  - name: "settings"
 #    label: "Settings"
