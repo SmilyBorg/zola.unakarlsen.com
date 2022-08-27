@@ -15,36 +15,42 @@ collections:
     files:
       - name: about
         label: About Page
+        file: "/content/pages/about.md"
         fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Body", name: "body", widget: "markdown"}
       - name: contact
         label: Contact Info
+        file: "/content/pages/contact.md"
         fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Body", name: "body", widget: "markdown"}
       - name: manual
         label: Manual of Me
+        file: "/content/pages/manual.md"
         fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Body", name: "body", widget: "markdown"}
       - name: medical
         label: Medical Information
+        file: "/content/pages/medical.md"
         fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Body", name: "body", widget: "markdown"}
       - name: now
         label: Now
+        file: "/content/pages/now.md"
         fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Body", name: "body", widget: "markdown"}
       - name: resume
         label: Resume
+        file: "/content/pages/resume.md"
         fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
