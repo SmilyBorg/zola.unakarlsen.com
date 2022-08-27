@@ -83,21 +83,21 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Status", name: "status", widget: "list", allow_add: false, default: ["planning"]}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "settings"
-    label: "Settings"
-    files:
-      - label: "Zola config.toml"
-        name: zola_config"
-        file: "/config.toml"
-        fields:
-          - {label: Code, name: code, widget: markdown, default_language: toml}
-      - label: "Netlify netlify.toml"
-        name: netlify.toml"
-        file: "/netlify.toml"
-        fields:
-          - {label: Code, name: code, widget: markdown, default_language: toml}
-      - label: "Netlify CMS config.yml"
-        name: netlifyCMS_config"
-        file: "/static/admin/config.tml"
-        fields:
-          - {label: Code, name: code, widget: markdown, default_language: yaml}
+#  - name: "settings"
+#    label: "Settings"
+#    files:
+#      - label: "Zola config.toml"
+#        name: zola_config"
+#        file: "/config.toml"
+#        fields:
+#          - {label: Code, name: code, widget: markdown, default_language: toml}
+#      - label: "Netlify netlify.toml"
+#        name: netlify.toml"
+#        file: "/netlify.toml"
+#        fields:
+#          - {label: Code, name: code, widget: markdown, default_language: toml}
+#      - label: "Netlify CMS config.yml"
+#        name: netlifyCMS_config"
+#        file: "/static/admin/config.tml"
+#        fields:
+#          - {label: Code, name: code, widget: markdown, default_language: yaml}
