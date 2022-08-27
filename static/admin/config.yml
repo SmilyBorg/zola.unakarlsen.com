@@ -90,14 +90,14 @@ collections:
         name: zola_config"
         file: "/config.toml"
         fields:
-          - {label: Code, name: code, widget: code, default_language: toml}
+          - {label: Code, name: code, widget: markdown, default_language: toml}
       - label: "Netlify netlify.toml"
         name: netlify.toml"
         file: "/netlify.toml"
         fields:
-          - {label: Code, name: code, widget: code, default_language: toml}
+          - {label: Code, name: code, widget: markdown, default_language: toml}
       - label: "Netlify CMS config.yml"
         name: netlifyCMS_config"
         file: "/static/admin/config.tml"
         fields:
-          - {label: Code, name: code, widget: code, default_language: yaml}
+          - {label: Code, name: code, widget: markdown, default_language: yaml}
