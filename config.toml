@@ -1,5 +1,6 @@
 # The URL the site will be built for
 base_url = "https://zola.unakarlsen.com"
+title = "Una Karlsen"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -11,6 +12,69 @@ build_search_index = true
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+  mode="auto"
+  useCDN=false
+  subtitle = ""
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/smilyborg/"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/smilyborg/
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/pages/about.md"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "/pages/contact.md"
+weight = 5
+
+[[menu.main]]
+name = "Manual"
+url = "/pages/manual.md"
+weight = 6
+
+[[menu.main]]
+name = "Medical"
+url = "/pages/medical.md"
+weight = 7
+
+[[menu.main]]
+name = "Resume"
+url = "/pages/resume.md"
+weight = 8
+
+[[menu.main]]
+name = "Now"
+url = "/pages/now.md"
+weight = 10
 
 [extra]
 # Put all your custom variables here
